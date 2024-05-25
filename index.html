@@ -1,0 +1,175 @@
+﻿<html>
+<head>
+    <title>ABOUT US</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin-top: 70px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 120px;
+            background-image: url('background.avif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color:cornflowerblue;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #dee2e6;
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            margin-top: 55px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #fff8e8;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+            gap: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+            flex-direction: row;
+        }
+
+        .member {
+            flex: 1 1 300px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .member:hover {
+                transform: translateY(-5px);
+                background-color: #fff0f3;
+            }
+
+            .member img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 15px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+
+            .member h2 {
+                font-size: 1.5em;
+                color: #333;
+                margin-bottom: 10px;
+            }
+
+            .member p {
+                font-size: 1.3em;
+                color: #555;
+                margin-bottom: 10px;
+            }
+
+            .member a {
+                color: red;
+                text-decoration: none;
+            }
+
+                .member a:hover {
+                    text-decoration: underline;
+                    color: blue;
+                    font-family: monospace;
+                    font-size: 18px;
+                }
+
+        .two-members {
+            display: flex;
+            flex: 1 1 calc(50% - 20px);
+            gap: 20px;
+        }
+
+            .two-members .member {
+                flex: 1 1 50%;
+            }
+
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: auto;
+            padding: 12px 20px;
+            font-size: 1.2em;
+            color: #fff;
+            text-align: center;
+            background-color: #ff6f61;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+
+            .cta-button:hover {
+                background-color: #8d0801;
+            }
+
+        footer {
+            color: white;
+            text-align: center;
+            padding: 0px;
+            bottom: 0;
+            width: 100%;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>ABOUT US</h1>
+    <p>
+        We empower organizations with a user-friendly CFMS, streamlining operations and optimizing facility management. Our team of experts ensures you get the most out of our platform through exceptional support.
+        </p>
+        <div class="container">
+            <div class="member">
+                <img src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png" alt="Sabina">
+                <h2>Sabina Rehmat</h2>
+                <p>Email: <a href="mailto:sabina@gmail.com">rameen@gmail.com</a></p>
+                <p>I am pursuing a degree in computer science at Bahria University.</p>
+                <p>02-134241-038</p>
+            </div>
+            <div class="member">
+                <img src="https://cdn-icons-png.flaticon.com/512/6833/6833605.png" alt="Rameen">
+                <h2>Rameen Zahid</h2>
+                <p>Email: <a href="mailto:rameen@gmail.com">rameen@gmail.com</a></p>
+                <p>Currently enrolled as a computer science student at Bahria University. </p>
+                <p>02-134241-074</p>
+            </div>
+            <div class="two-members">
+                <div class="member">
+                    <img src="https://toppng.com/uploads/preview/man-icon-icon-11553432006itw46zhhk8.png" alt="Baqar">
+                    <h2>Baqar Rizvi</h2>
+                    <p>Email: <a href="mailto:baqar@gmail.com">baqar@gmail.com</a></p>
+                    <p>At Bahria University, I am studying computer science as my major</p>
+                    <p>02-134241-060</p>
+                </div>
+                <div class="member">
+                    <img src="https://www.svgrepo.com/show/382097/female-avatar-girl-face-woman-user-9.svg" alt="Ansa">
+                    <h2>Ansa Batool</h2>
+                    <p>Email: <a href="mailto:ansa@gmail.com">ansa@gmail.com</a></p>
+                    <p>I am a student of computer science at Bahria University.</p>
+                    <p>02-134241-055</p>
+                </div>
+            </div>
+        </div>
+        <br>  <br>
+        <footer>
+            <p>© 2024 Customer Feedback Management System. All rights reserved.</p>
+        </footer>
+</body>
+    </html>
